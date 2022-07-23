@@ -1,0 +1,119 @@
+.header{
+    background-color: var(--background-color);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 72px;
+    line-height: 72px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.nav__logo{
+
+}
+.nav__logo--item {
+    position: absolute;
+    width: 60px;
+    max-width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.nav__logo--name span{
+    color: var(--text-color);
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-left: 60px;
+}
+.nav__menu{
+    display: inline-flex;
+}
+.nav__menu--option ,
+.about__menu--option , 
+.mega__box--option {
+    list-style: none;
+}
+.nav__menu--link ,
+.about__menu--link ,
+.mega__box--link {
+    color: var(--text-color);
+    font-size: 1.8rem;
+    padding: 10px 18px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+.nav__menu--link:hover ,
+.about__menu--link:hover,
+.mega__box--link:hover {
+    background-color: var(--color-primery);
+
+}
+.nav__menu--option:hover .about__menu ,
+.nav__menu--option:hover .mega__box {
+    display: block;
+    transition: all 0.3 ease;
+}
+.about__menu {
+    display: none;
+    top: 72px;
+    line-height: 48px;
+    width: 120px;
+    position: absolute;
+    background-color: var(--background-color);
+}
+
+.about__menu--link{
+    width: 100%;
+    display: block;
+    padding: 0 0 0 12px;
+    font-weight: 400;
+    border-radius: 0px;
+}
+
+.mega__box {
+    position: absolute;
+    top: 74px;
+    width: 100%;
+    left: 0;
+    display: none;
+}
+.mega__box--content {
+    background-color: var(--background-color);
+    padding: 18px 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.mega__box--menu {
+    margin-left: -30px;
+    border-left: 1px solid rgba(255, 255, 255, 0.09);
+}
+.mega__box--option {
+    padding: 0 20px;
+}
+.mega__box--link {
+    padding: 0 20px;
+    font-size: 1.6rem;
+    display: block;
+}
+.photo-bgr {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 12px;
+}
+.slider__bgr {
+    width: 100%;
+}
+.header-container {
+    display: block;
+
+    
+}
