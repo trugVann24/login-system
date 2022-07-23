@@ -49,6 +49,7 @@
 .about__menu--link:hover,
 .mega__box--link:hover {
     background-color: var(--color-primery);
+    bordẻ-radius: 3rem;
 
 }
 .nav__menu--option:hover .about__menu ,
